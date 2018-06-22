@@ -5622,6 +5622,12 @@ public final class Settings {
         public static final String QS_PANEL_BG_COLOR = "qs_panel_bg_color";
 
         /**
+         * Whether to use framework styles and resources on qs panel
+         * @hide
+         */
+        public static final String QS_PANEL_BG_USE_FW = "qs_panel_bg_use_fw";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
@@ -5786,6 +5792,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(FOD_GESTURE);
             PRIVATE_SETTINGS.add(QS_PANEL_BG_ALPHA);
             PRIVATE_SETTINGS.add(QS_PANEL_BG_COLOR);
+            PRIVATE_SETTINGS.add(QS_PANEL_BG_USE_FW);
         }
 
         /**
