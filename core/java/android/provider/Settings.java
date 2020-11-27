@@ -5347,6 +5347,12 @@ public final class Settings {
         public static final String QS_TILES_BG_DISCO = "qs_tiles_bg_disco";
 
         /**
+         * FOD icon picker
+         * @hide
+         */
+        public static final String FOD_ICON = "fod_icon";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
