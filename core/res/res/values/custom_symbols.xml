@@ -115,4 +115,6 @@
     <!-- Device has OnePlus haptic motor -->
     <java-symbol type="bool" name="config_hasOnePlusHapticMotor" />
 
+  <!-- Default fod pressed icon -->
+  <java-symbol type="integer" name="config_fod_pressed_color" />
 </resources>
