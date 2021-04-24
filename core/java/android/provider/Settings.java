@@ -5379,6 +5379,12 @@ public final class Settings {
                 "status_bar_daylight_header_pack";
 
         /**
+         * Whether to change the transparency of the notifications
+         * @hide
+         */
+        public static final String NOTIFICATION_BG_ALPHA = "notification_bg_alpha";
+
+        /**
          * Current active provider - available currently "static" "daylight"
          * @hide
          */
